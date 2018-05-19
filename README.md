@@ -1,2 +1,2 @@
-# JAVADemo
-java例子
+# StudentMS
+学生管理系统
