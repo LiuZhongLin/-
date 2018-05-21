@@ -5,7 +5,7 @@ public class DengLuJieMian extends Frame implements ActionListener
    JTextField JTUserName = new JTextField();      //创建一个文本框对象
    JPasswordField JPsw = new JPasswordField();    //创建一个密码框对象
    JButton JB1 = new JButton("登录");             //创建按钮对象
-   JButton JB1 = new JButton("密码");             
+   JButton JB2 = new JButton("密码");             
    JLabel JL1 = new JLbael("身份：");             //使用文本创建一个标签对象
    JComboBox JC = new JComboBox();               //创建一个组合框对象
    
@@ -30,7 +30,7 @@ public class DengLuJieMian extends Frame implements ActionListener
       this.add(JB1);
       JB1.addActionListener(this);
       JB2.setBounds(200,200,60,20);
-      this.add(B2);
+      this.add(JB2);
       JB2.addActionListener(this);
       this.setVisible(true);
       this.setBounds(10,10,400,250);
@@ -46,16 +46,16 @@ public class DengLuJieMian extends Frame implements ActionListener
    {
       new DengLuJieMian();
    }
-   public void ActionPerformed(ActionEvent e)
+   public void actionPerformed(ActionEvent e)
    {
       if(e.getSource() == JB1)
       {
           String name = JTUserName.getText();
           String password = new String (JPsw.getPassword());
           String box = (String)JC.getSelectedItem();
-          if((name != null && (name.eqauls("daishu"))) && (password != null) && (password.equals("0816"))))
+          if((name != null && (name.equals("daishu"))) && (password != null) && (password.equals("0816"))))
           {
-              if(box.eqauls("学生"))
+              if(box.equals("学生"))
               {
                 //new SudentJieMian();
               }
