@@ -6,7 +6,7 @@ public class DengLuJieMian extends Frame implements ActionListener
    JPasswordField JPsw = new JPasswordField();    //创建一个密码框对象
    JButton JB1 = new JButton("登录");             //创建按钮对象
    JButton JB2 = new JButton("密码");             
-   JLabel JL1 = new JLbael("身份：");             //使用文本创建一个标签对象
+   JLabel JL1 = new JLabel("身份：");             //使用文本创建一个标签对象
    JComboBox JC = new JComboBox();               //创建一个组合框对象
    
    public DengLuJieMian(){
@@ -53,7 +53,7 @@ public class DengLuJieMian extends Frame implements ActionListener
           String name = JTUserName.getText();
           String password = new String (JPsw.getPassword());
           String box = (String)JC.getSelectedItem();
-          if((name != null && (name.equals("daishu"))) && (password != null) && (password.equals("0816"))))
+          if((name != null && (name.equals("daishu"))) && (password != null) && (password.equals("0816")))
           {
               if(box.equals("学生"))
               {
