@@ -18,7 +18,7 @@ public class DengLuJieMian extends Frame implements ActionListener
       this.add(JTUserName);                     //将文本框组件添加到容器
       JLPaw.setBounds(100,100,60,20);           //设置密码标签的初始位置
       this.add(JLPaw);                          //将文本框组件添加到容器
-      JPsw.setBounds(100,150,80,20);            //设置密码框的初始位置
+      JPsw.setBounds(200,100,80,20);            //设置密码框的初始位置
       this.add(JPsw);                           //将密码框组件添加到容器
       JL1.setBounds(100,150,60,20);             //设置身份标签的初始位置
       this.add(JL1);
