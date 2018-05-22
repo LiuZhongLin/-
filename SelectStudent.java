@@ -93,7 +93,6 @@ public class SelectStudent extends JFrame implements ActionListener{
 			String sname = JTName.getText();
 			String sclass = JTClass.getText();
 			String ssex = "Å®";
-			JRB2.setSelected(true);
 			if (JRB1.isSelected()) {
 				ssex = "ÄÐ";
 			}
