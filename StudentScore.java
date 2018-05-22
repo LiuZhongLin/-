@@ -80,6 +80,9 @@ public class StudentScore extends JFrame implements ActionListener{
 		// TODO Auto-generated method stub
 		if(e.getSource() == JBSet){
 			String snumber = JTNumber.getText();
+			if (snumber.equals("num1")) {
+				JTName.setText("num1");
+			}
 			String sname = JLName.getText();
 			String schinese = JLChinese.getText();
 			String ssex = "Ů";
